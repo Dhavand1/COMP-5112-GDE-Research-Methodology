@@ -108,7 +108,9 @@ python -c "import skimage; print(skimage.__version__)"
 
 # Model
 There are two files in the model folder:
+
 .txt file: contains numbers from (0 to 9) and certain alphabets as characters
+
 .pb file: This file contain search and index information for referencing WordPerfect documents and are used for fast lookups or backups of documents
 
 
