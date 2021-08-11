@@ -1,6 +1,6 @@
 # COMP-5112-GDE-Research-Methodology
 
-Detecting and Recognizing Vehicle Number Plate from a video in real time
+Deriving and Recognizing Vehicle Number Plate from a video in real time
 
 # Table of Contents
 
@@ -87,13 +87,14 @@ ix) Finally, use OCR to recognize the character one by one.
 
 # Usage
 Number of files required to be imported in the project:
-
+```
 import cv2
 import numpy as np
 from skimage.filters import threshold_local
 import tensorflow as tf
 from skimage import measure
 import imutils
+```
 
 To see whether scikit-image is already installed or to check if an install has worked, run the following in a Python shell or Jupyter notebook:
 ```
