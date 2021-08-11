@@ -4,7 +4,7 @@ Detecting and Recognizing Vehicle Number Plate from a video in real time
 
 # Table of Contents
 
-1) **Dependencies**
+1) Dependencies
 
 # Dependencies
 opencv-python 3.4.2
