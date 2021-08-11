@@ -14,7 +14,7 @@ Detecting and Recognizing Vehicle Number Plate from a video in real time
 8) [mainfile.py](#mainfile.py "Goto mainfile.py")
 9) [Results](#Results "Goto Results")
 10) [Advantages](#Advantages "Goto Advantages")
-11) [Future Scope](#Future Scope "Goto Future Scope")
+11) [Future-Scope](#Future-Scope "Goto Future-Scope")
 12) [License](#License "Goto License")
 13) [Support](#Support "Goto Support")
 14) [References](#Referencese "Goto References")
