@@ -48,7 +48,7 @@ e) Recognize characters using an OCR (character recognition).
 
 2. Find vertical edges in the image.
 
-![image](https://user-images.githubusercontent.com/79090426/129055079-74a49172-5f27-4c2b-b87e-df05d02ecbf2.png)
+  ![image](https://user-images.githubusercontent.com/79090426/129055079-74a49172-5f27-4c2b-b87e-df05d02ecbf2.png)
 
 3. To reveal the plate we have to binarize the image. For this apply Otsu’s Thresholding on the vertical edge image. Otsu’s Thresholding determines the value automatically, whereas in other thresholding methods we have to choose a threshold value to binarize the image.
 ![image](https://user-images.githubusercontent.com/79090426/129055947-463294b7-89b5-4d6f-aa1a-df2d1379bf9e.png)
