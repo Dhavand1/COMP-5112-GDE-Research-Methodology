@@ -62,14 +62,23 @@ e) Recognize characters using an OCR (character recognition).
 
 # Code
 i) The above step is performed by **clean_plate** and **ratioCheck** method of class **PlateFinder**.
+
 ii) To recognize the characters on the plate precisely, we have to apply image segmentation. For that first step is to extract the value channel from the HSV format of the plate’s image.
+
 iii) Now apply adaptive thresholding on the plate’s value channel image to binarize it and reveal the characters. It is an image processing method that creates a bitonal (aka binary) image based on setting a threshold value on the pixel intensity of the original image. The image of plate can have different lightning conditions in different areas, in that case adaptive thresholding can be more suitable to binarize because it uses different threshold values for different regions based on the brightness of the pixels in the region around it.
+
 iv) After binarizing apply bitwise not operation on the image to find the connected components in the image so that we can extract character candidates.
+
 v) Construct a mask to display all the character components and then find contours in mask. After extracting the contours take the largest one (that will be the number plate), find its bounding rectangle and validate side ratios.
-vi) After validating the side ratios find the convex hull of the contour ad draw it on the character candidate mask. The mask would look like-
+
+vi) After validating the side ratios find the convex hull of the contour and draw it on the character candidate mask.
+
 vii) Now find all the contours in the character candidate mask and extract those contour areas from the plate’s value thresholded image, you will get all the characters separately.
+
 ![image](https://user-images.githubusercontent.com/79090426/129067510-b879ad0a-d2c5-48e5-a5fd-fe8babcce4fc.png)
-viii) The above steps are performed by **segment_chars** function that you can find in the source code. The driver code for the functions used is written in the method **check_plate** of class **PlateFinde**r. 
+
+viii) The above steps are performed by **segment_chars** function that you can find in the source code. The driver code for the functions used is written in the method **check_plate** of class **PlateFinder**.
+
 ix) Finally, use OCR to recognize the character one by one.
 
 # Usage
