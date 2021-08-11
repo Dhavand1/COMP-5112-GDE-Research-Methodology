@@ -96,11 +96,14 @@ from skimage import measure
 import imutils
 
 To see whether scikit-image is already installed or to check if an install has worked, run the following in a Python shell or Jupyter notebook:
+```
 import skimage
 print(skimage.__version__)
-
+```
 or, from the command line:
+```
 python -c "import skimage; print(skimage.__version__)"
+```
 
 
 
