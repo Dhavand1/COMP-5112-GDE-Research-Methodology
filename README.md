@@ -37,9 +37,13 @@ Detecting and Recognizing Vehicle Number Plate is a very important task for a ca
 
 # Approach
 a) Find all the contours in the image.
+
 b) Find the bounding rectangle of every contour.
+
 c) Compare and validate the sides ratio and area of every bounding rectangle with an average plate (plate recognition).
+
 d) Apply image segmentation in the image inside validated contour to find characters in it.
+
 e) Recognize characters using an OCR (character recognition).
 
 # Methodology
