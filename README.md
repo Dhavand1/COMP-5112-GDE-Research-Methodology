@@ -49,8 +49,11 @@ e) Recognize characters using an OCR (character recognition).
 # Methodology
 1. To reduce the noise we need to blur the input Image with Gaussian Blur then convert the it to grayscale. 
 ![image](https://user-images.githubusercontent.com/79090426/129054772-03af6d70-a78d-424b-a1f4-da940f150087.png)
+
 2. Find vertical edges in the image.
+
 ![image](https://user-images.githubusercontent.com/79090426/129055079-74a49172-5f27-4c2b-b87e-df05d02ecbf2.png)
+
 3. To reveal the plate we have to binarize the image. For this apply Otsu’s Thresholding on the vertical edge image. Otsu’s Thresholding determines the value automatically, whereas in other thresholding methods we have to choose a threshold value to binarize the image.
 ![image](https://user-images.githubusercontent.com/79090426/129055947-463294b7-89b5-4d6f-aa1a-df2d1379bf9e.png)
 4. Apply Closing Morphological Transformation on thresholded image. Closing is useful to fill small black regions between white regions in a thresholded image. It reveals the rectangular white box of the number plate present on the vehicle.
