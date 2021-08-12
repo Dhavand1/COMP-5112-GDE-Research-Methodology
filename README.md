@@ -150,9 +150,17 @@ One can also train their own machine learning model to recognize characters beca
 I have licensed the project under the **GNU General Public License v3.0**.
 
 # Support
+Permissions provided to the user are: Commercial use, Modification, Distribution, Patent use and Private use. 
 
+Still having trouble you can contact me: dpate75@lakheadu.ca
 
 # References
+[1] 	H. Karwal and A. Girdhar, Vehicle Number Plate Detection System for Indian Vehicles, 2015 IEEE International Conference on Computational Intelligence & Communication Technology, 2015. 
+
+[2] 	A. LAZRUS, S. CHOUBEY and S. G.R., AN EFFICIENT METHOD OF VEHICLE NUMBER PLATE DETECTION AND RECOGNITION, International Journal of Machine Intelligence, 2011. 
+
+[3] 	K. K. Jena, S. R. Nayak, S. Mishra and S. Mishra, Vehicle Number Plate Detection: An Edge Image Based Approach, Progress in Advanced Computing and Intelligent Engineering, 2020. 
+
 
 
 
