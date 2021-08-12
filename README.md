@@ -56,8 +56,11 @@ e) Recognize characters using an OCR (character recognition).
 
 3. To reveal the plate we have to binarize the image. For this apply Otsu’s Thresholding on the vertical edge image. Otsu’s Thresholding determines the value automatically, whereas in other thresholding methods we have to choose a threshold value to binarize the image.
 ![image](https://user-images.githubusercontent.com/79090426/129055947-463294b7-89b5-4d6f-aa1a-df2d1379bf9e.png)
+
 4. Apply Closing Morphological Transformation on thresholded image. Closing is useful to fill small black regions between white regions in a thresholded image. It reveals the rectangular white box of the number plate present on the vehicle.
+
 ![image](https://user-images.githubusercontent.com/79090426/129056325-5a281b6c-b508-4758-872c-a811ec01b400.png)
+
 5. To detect the plate on the vehicle we need to find contours in the image. Contour is an outline, especially one representing or bounding the shape or form of something. It is important to binarize and morph the image before finding contours so that it can find more relevant and less number of contours in the image. If you draw all the extracted contours on original image, it would look like this: 
 ![image](https://user-images.githubusercontent.com/79090426/129057654-c0fab284-e111-492d-b291-164f5e8b29a7.png)
 6. Now find the minimum area rectangle enclosed by each of the contour and validate their side ratios and area. I have defined the minimum and maximum area of the plate as 4500 and 30000 respectively.
