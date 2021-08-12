@@ -1,6 +1,6 @@
 # COMP-5112-GDE-Research-Methodology
 
-Deriving and Recognizing Vehicle Number Plate from a video in real time
+Detecting and Recognizing Vehicle Number Plate from a video in real time
 
 # Table of Contents
 
@@ -15,7 +15,7 @@ Deriving and Recognizing Vehicle Number Plate from a video in real time
 9) [mainfile.py](#mainfile.py "Goto mainfile.py")
 10) [Results](#Results "Goto Results")
 11) [Advantages](#Advantages "Goto Advantages")
-12) [Future-Scope](#Future-Scope "Goto Future-Scope")
+12) [Road-map](#Road-map "Goto Road-map")
 13) [License](#License "Goto License")
 14) [Support](#Support "Goto Support")
 15) [References](#Referencese "Goto References")
@@ -114,6 +114,47 @@ There are two files in the model folder:
 .pb file: This file contain search and index information for referencing WordPerfect documents and are used for fast lookups or backups of documents
 
 # Video
+The link to the input video is provided in the Car_video folder.
+
+# mainfile.py
+This python file contains the source code of my project. Also, you can download the source code, OCR model and the video from the link provided.
+
+# Results
+**Input:**
+
+![image](https://user-images.githubusercontent.com/79090426/129123245-559d7f75-8a77-4743-ae7a-f093aa5b1c4e.png)
+
+**Output:**
+29A33185
+
+![image](https://user-images.githubusercontent.com/79090426/129123324-3704362f-8d9e-4d04-9b5e-e65a66d0243e.png)
+
+# Advantages
+24/7 monitoring
+
+Easy and Efficient
+
+Improves security for both operators and users
+
+Cost Effective
+
+Provides Evidence
+
+No human interference
+
+# Road-map
+For future work, we can set a particular small region in the frame to find the plates inside it.(But, we have to make sure all vehicle must pass through that region).
+One can also train their own machine learning model to recognize characters because the given model doesn’t recognize all the alphabets.
+
+# License
+
+# Support
+
+# References
+
+
+
+
 
 
 
