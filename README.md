@@ -147,8 +147,10 @@ For future work, we can set a particular small region in the frame to find the p
 One can also train their own machine learning model to recognize characters because the given model doesn’t recognize all the alphabets.
 
 # License
+I have licensed the project under the **GNU General Public License v3.0**.
 
 # Support
+
 
 # References
 
