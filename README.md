@@ -114,7 +114,7 @@ There are two files in the model folder:
 .pb file: This file contain search and index information for referencing WordPerfect documents and are used for fast lookups or backups of documents
 
 # Video
-The link to the input video is provided in the Car_video folder.
+The link to the input video is provided in the **Car_video** folder.
 
 # mainfile.py
 This python file contains the source code of my project. Also, you can download the source code, OCR model and the video from the link provided.
