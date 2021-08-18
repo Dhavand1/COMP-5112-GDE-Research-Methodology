@@ -1,6 +1,6 @@
-# COMP-5112-GDE-Research-Methodology
+COMP-5112-GDE-Research-Methodology
 
-Detecting and Recognizing Vehicle Number Plate from a video in real time
+# Detecting and Recognizing Vehicle Number Plate from a video in real time
 
 # Table of Contents
 
